@@ -1,6 +1,6 @@
 import React from 'react'
 import profilepic from '../assets/profilepic.png'
-import cv from '../assets/apsanacv.pdf'
+import cv from '../assets/ApsanaCv.pdf'
 import { AiFillLinkedin,AiFillGithub } from 'react-icons/ai'
 import {TypeAnimation} from 'react-type-animation'
 const Hero = () => {
