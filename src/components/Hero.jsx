@@ -1,7 +1,7 @@
 import React from 'react'
 import profilepic from '../assets/profilepic.png'
-import cv from '../assets/cvApsana.pdf'
-import { AiFillLinkedin,AiFillGithub,AiFillInstagram } from 'react-icons/ai'
+import cv from '../assets/apsanacv.pdf'
+import { AiFillLinkedin,AiFillGithub } from 'react-icons/ai'
 import {TypeAnimation} from 'react-type-animation'
 const Hero = () => {
   return (
@@ -36,9 +36,9 @@ const Hero = () => {
         </p>
       </div>
       <div className="text-5xl flex justify-start gap-16 my-7 text-purple-600">
-        <AiFillLinkedin />
-        <AiFillGithub />
-        <AiFillInstagram/>
+       <a href="https://www.linkedin.com/in/apsana-sharma-3b9a57317/"> <AiFillLinkedin /></a>
+       <a href="https://github.com/Apsana3345">   <AiFillGithub /> </a> 
+        {/* <AiFillInstagram/> */}
       </div>
 
       <div className="relative inline-flex group my-3">
